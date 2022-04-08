@@ -1,0 +1,183 @@
+ * {
+    margin: 4px;
+}  
+
+.body{
+    background-color: rgb(253, 248, 242);
+}
+.container{
+    width: 100%;
+} 
+.my-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#pic{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.my-name{
+    padding-right: 50%;
+} 
+.city-title{
+    padding-top: 40px; 
+    text-align: left; 
+    margin-right: 4px;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    justify-content: left;
+}  
+
+.column-page{
+    text-align: center;
+}
+.city-paragraph{
+    display: flex;
+    padding: 50px;
+} 
+.content{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.place2  {
+    display: flex;
+}
+.foreign{
+    align-items: center;
+    justify-content: center;  
+    padding: 90px;
+    clear: both;
+    
+}
+ .places {
+  display: flex; 
+  margin-left: 4%;
+  margin-right: 4%;
+} 
+ .image {
+    padding-left: 200px;
+}  
+.images {
+    float: left;
+    padding-left: 200px;
+} 
+
+.place1{
+    padding: 20px 20px 0 0;
+
+}
+.place1 p {
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.center {
+    text-align: left;
+   padding-left: 100px;
+}
+.center1 {
+    text-align: center;
+}
+.center2{
+    text-align: center;
+}
+.header {
+    display: flex;
+    background-color:#e63838;
+    height: 70px;
+    margin: none;
+    color: antiquewhite;
+}
+.footer { 
+    background-color: #e63838;
+    height: 70px;
+    text-align: center;
+    margin: none;
+    padding-top: 15px;
+    color: antiquewhite;
+} 
+.section1 {
+width: 33.33%; 
+}
+
+.table {
+    background-color: #e63838;
+}
+.table td  {
+    text-align: center;
+    color: antiquewhite;
+}
+.table th {
+    color: antiquewhite;
+
+}
+.media-picture{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+@media (max-width: 700px){
+
+    .my-profile {
+    flex-direction: column;
+    }
+    .my-name {
+    text-align: center;
+    padding-left: 50px;
+    }
+    .foreign {
+        flex-direction: column;
+        padding: 50px;
+        margin-top: 50px;
+    }
+    .table {
+     width: 100% ;
+    }
+    .body {
+        font-size: 15px;
+    }
+    .places {
+        flex-direction: column;
+        box-sizing: inherit;
+    }
+    .places p {
+        padding-top: 5px;
+        text-align: left;
+        width: 300px;
+    }
+    
+.city-title{
+    text-align: left; 
+    margin-left: 4px;
+    flex-wrap: wrap;
+    width: 60%;
+    padding-left: 55px;
+    justify-content: left;
+}
+.center {
+    padding-left: 88px;
+}
+.place1 {
+    width: 100px;
+}
+.place2{
+    flex-direction: column;
+}
+.image{
+    float: left;
+}
+
+}
+
+    
+    
+    
+
+
+
